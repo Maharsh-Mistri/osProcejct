@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+.container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+#processInputs {
+    margin-top: 20px;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#ganttChart {
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.bar {
+    border: 1px solid #000;
+    display: inline-block;
+    height: 30px;
+    background-color: #007bff;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+}
+
+.margins{
+    margin: 5px;
+  }
